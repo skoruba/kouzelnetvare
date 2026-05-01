@@ -1,73 +1,88 @@
-# React + TypeScript + Vite
+<div align="center">
+  <img src="src/assets/logo.png" alt="Kouzelné Tváře logo" width="220" />
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+  <h1>Kouzelné Tváře</h1>
 
-Currently, two official plugins are available:
+  <p><strong>Malování na obličej pro dětské akce v Praze a okolí</strong></p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+  <p>
+    <img src="https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react&logoColor=white" alt="React 19" />
+    <img src="https://img.shields.io/badge/TypeScript-5-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+    <img src="https://img.shields.io/badge/Vite-6-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite" />
+    <img src="https://img.shields.io/badge/GitHub%20Pages-deployed-brightgreen?style=flat-square&logo=github" alt="Deployed" />
+  </p>
 
-## React Compiler
+  <p>
+    <a href="https://kouzelnetvare.cz">🌐 kouzelnetvare.cz</a>
+  </p>
+</div>
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ✨ O projektu
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Webová prezentace pro **Kouzelné Tváře** — malování na obličej pro dětské oslavy, školky a firemní family days v Praze a okolí. Stránka představuje služby, oblíbené motivy, ceník a příběh Martiny Škorubové, která za projektem stojí.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## 🗂 Struktura projektu
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```
+src/
+├── App.tsx                    # Hlavní orchestrátor
+├── styles.ts                  # Všechny styly na jednom místě
+├── theme.ts                   # Barvy, typy, data, smoke testy
+├── assets/
+│   ├── logo.png               # Logo Kouzelné Tváře
+│   └── martina.png            # Foto Martiny
+└── components/
+    ├── Header.tsx             # Navigace
+    ├── HeroSection.tsx        # Hero sekce
+    ├── ServicesSection.tsx    # Nabídka služeb
+    ├── StorySection.tsx       # Příběh značky
+    ├── AboutSection.tsx       # O Martině
+    ├── MotifsSection.tsx      # Oblíbené motivy
+    ├── PricingSection.tsx     # Ceník
+    ├── HowItWorksSection.tsx  # Jak to probíhá
+    ├── ContactSection.tsx     # Kontakt
+    ├── Footer.tsx             # Patička
+    ├── BrushIcon.tsx          # SVG ikonka štětce
+    ├── Button.tsx             # Tlačítko (primary / outline)
+    ├── Card.tsx               # Karta
+    ├── LogoMark.tsx           # Logo komponenta
+    └── SectionTitle.tsx       # Nadpis sekce
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🚀 Lokální spuštění
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm install
+npm run dev
 ```
+
+Web bude dostupný na [http://localhost:5173](http://localhost:5173).
+
+```bash
+npm run build    # produkční build do /dist
+npm run preview  # náhled produkčního buildu
+```
+
+---
+
+## 🌍 Deployment
+
+Web se automaticky nasazuje na **GitHub Pages** při každém push na větev `main` pomocí GitHub Actions.
+
+Pipeline: `.github/workflows/deploy.yml`
+
+Živá adresa: **[https://kouzelnetvare.cz](https://kouzelnetvare.cz)**
+
+---
+
+## 📬 Kontakt
+
+✉️ [info@kouzelnetvare.cz](mailto:info@kouzelnetvare.cz)  
+📞 +420 777 559 022  
+📍 Praha 8 a okolí
