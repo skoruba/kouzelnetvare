@@ -28,7 +28,7 @@ export function MotifsSection() {
     <section id="motivy" style={styles.section}>
       <SectionTitle
         eyebrow="Oblíbené motivy"
-        title="Od jemných srdíček po odvážné tygříky"
+        title="Od vesmíru po Minecraft — 8 kouzelných motivů"
         text="Děti si mohou vybrat z jednoduché nabídky motivů, aby šlo malování svižně a bez stresu."
       />
 
