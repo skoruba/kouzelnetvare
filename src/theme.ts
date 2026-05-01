@@ -46,13 +46,13 @@ export const services: Service[] = [
 ];
 
 export const motifs: Motif[] = [
-  ["Motýlek", "Jemné barvy, třpytky a rozzářené oči."],
-  ["Tygřík", "Oblíbená klasika pro odvážné malé dobrodruhy."],
-  ["Princezna", "Korunka, srdíčka a kouzelný třpyt."],
-  ["Superhrdina", "Rychlá proměna pro akční děti."],
-  ["Kytičky", "Něžný motiv pro menší děti."],
-  ["Jednorožec", "Pastelový sen plný barev."],
-];
+  ["Vesmír", "Kosmické planety, hvězdičky a zákoutí vesmíru na tváři."],
+  ["Fotbal", "Sportovní duch s barvami oblíbeného týmu na obličeji."],
+  ["Kočka", "Roztomilá kočička s ousky a knírajícím nosem."],
+  ["Motýl", "Krásný motýl s křídly a třpytky jako třiduch."],
+  ["Duha", "Pastelová duha plná barev přinášející radost a kouzlo."],
+  ["Spiderman", "Superhrdina Spider-Man s pověstným značením a silou."],  ["Jednorožec", "Kouzelný jednorožec s růžkem, květy a vlásky plnými magie."],
+  ["Minecraft", "Bloky, kostky a pixelová dobrodružství z populární hry."],];
 
 export const packages: PackageItem[] = [
   {
