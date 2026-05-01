@@ -6,11 +6,11 @@ export function Footer() {
       <div>© 2026 Kouzelné Tváře · Malování na obličej Praha a okolí</div>
 
       <div style={styles.footerLinks}>
-        <a href="#" style={styles.navLink}>
+        <a
+          href="https://www.instagram.com/kouzelnetvare/"
+          style={styles.navLink}
+        >
           Instagram
-        </a>
-        <a href="#" style={styles.navLink}>
-          Facebook
         </a>
         <a href="#kontakt" style={styles.navLink}>
           Kontakt
