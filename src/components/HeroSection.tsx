@@ -11,10 +11,9 @@ export function HeroSection() {
         <h1 style={styles.h1}>Kouzelné malování na obličej pro dětské akce</h1>
 
         <p style={styles.heroText}>
-          Proměníme děti v kosmonauty, fotbalisty, roztomilé kočky, motýly plné
-          třpytek, duhy, superhrdinky i jednorožce. Jemné barvy, třpytky, úsměvy
-          a krásná atmosféra na oslavách, ve školkách i na firemních family
-          days.
+          Malujeme dětem vesmír, fotbal, kočičky, motýlky, duhy, superhrdiny,
+          jednorožce i pixelová dobrodružství. Jemné barvy, třpytky, úsměvy a
+          kouzelná atmosféra na každé dětské akci.
         </p>
 
         <div style={styles.buttonRow}>
