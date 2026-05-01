@@ -37,7 +37,7 @@ export function Header() {
         </a>
       </nav>
 
-      <Button>Rezervovat</Button>
+      <Button href="#kontakt">Rezervovat</Button>
     </header>
   );
 }

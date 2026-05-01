@@ -4,7 +4,7 @@ import { styles } from "../styles";
 export function HowItWorksSection() {
   return (
     <section style={styles.section}>
-      <div style={styles.twoCol}>
+      <div className="two-col" style={styles.twoCol}>
         <div style={styles.infoPanel}>
           <div style={styles.bigEmoji}>📸</div>
           <h2 style={styles.h2Left}>Jak to probíhá?</h2>

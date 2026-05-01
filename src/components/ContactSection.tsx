@@ -5,7 +5,7 @@ import { Button } from "./Button";
 export function ContactSection() {
   return (
     <section id="kontakt" style={styles.contactSection}>
-      <div style={styles.contactBox}>
+      <div className="contact-box" style={styles.contactBox}>
         <div>
           <div style={styles.contactBadge}>✨ Volné termíny po domluvě</div>
           <h2 style={styles.contactTitle}>Chcete dětem vykouzlit úsměv?</h2>

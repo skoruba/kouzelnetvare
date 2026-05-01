@@ -3,7 +3,6 @@ import { runSmokeTests } from "./theme";
 import { Header } from "./components/Header";
 import { HeroSection } from "./components/HeroSection";
 import { ServicesSection } from "./components/ServicesSection";
-import { StorySection } from "./components/StorySection";
 import { AboutSection } from "./components/AboutSection";
 import { MotifsSection } from "./components/MotifsSection";
 import { PricingSection } from "./components/PricingSection";
@@ -27,7 +26,6 @@ export default function KouzelneTvareWebDesign() {
       <Header />
       <HeroSection />
       <ServicesSection />
-      <StorySection />
       <AboutSection />
       <MotifsSection />
       <PricingSection />

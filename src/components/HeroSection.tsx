@@ -17,8 +17,10 @@ export function HeroSection() {
         </p>
 
         <div style={styles.buttonRow}>
-          <Button>Chci termín 🎨</Button>
-          <Button variant="outline">Zobrazit ceník</Button>
+          <Button href="#kontakt">Chci termín 🎨</Button>
+          <Button variant="outline" href="#cenik">
+            Zobrazit ceník
+          </Button>
         </div>
 
         <div style={styles.pills}>
@@ -28,7 +30,7 @@ export function HeroSection() {
         </div>
       </div>
 
-      <div style={styles.heroLogoCard}>
+      <div className="hero-logo" style={styles.heroLogoCard}>
         <LogoMark />
       </div>
     </section>

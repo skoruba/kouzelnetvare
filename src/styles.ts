@@ -30,9 +30,51 @@ export const responsiveCss = `
     }
   }
 
-  @media (max-width: 820px) {
+  @media (max-width: 700px) {
+    /* Sekce – jeden sloupec, menší padding */
     main section {
       grid-template-columns: 1fr !important;
+      padding-top: 44px !important;
+      padding-bottom: 44px !important;
+    }
+
+    /* O mně – fotka pod textem na mobilu */
+    .about-inner {
+      flex-direction: column !important;
+      align-items: center !important;
+      gap: 28px !important;
+    }
+
+    /* Méně paddingu v kartě na mobilu */
+    .about-card {
+      padding: 28px 20px !important;
+    }
+
+    /* Menší kruhová fotka na mobilu */
+    .about-photo-outer {
+      width: 200px !important;
+      height: 200px !important;
+    }
+
+    /* HowItWorks – 1 sloupec */
+    .two-col {
+      grid-template-columns: 1fr !important;
+      gap: 24px !important;
+    }
+
+    /* Kontakt box – 1 sloupec, menší padding */
+    .contact-box {
+      grid-template-columns: 1fr !important;
+      gap: 24px !important;
+      padding: 28px 20px !important;
+      border-radius: 28px !important;
+    }
+
+    /* Footer – vertikálně centrovaný */
+    main footer {
+      flex-direction: column !important;
+      text-align: center !important;
+      gap: 12px !important;
     }
   }
 `;
@@ -507,9 +549,12 @@ export const styles: Record<string, CSSProperties> = {
   storyLogoFrame: {
     borderRadius: 44,
     background: `linear-gradient(145deg, ${colors.softPink} 0%, white 55%, ${colors.softTeal} 100%)`,
-    padding: 28,
+    padding: 32,
     boxShadow: "0 30px 80px rgba(53,35,90,0.13)",
     border: "1px solid rgba(53,35,90,0.07)",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
   },
   storyLogo: {
     width: "100%",
@@ -626,8 +671,6 @@ export const styles: Record<string, CSSProperties> = {
     fontWeight: 850,
     color: colors.teal,
     fontSize: 14,
-    marginTop: 14,
-    marginLeft: 8,
   },
   aboutMainText: {
     fontSize: 20,
