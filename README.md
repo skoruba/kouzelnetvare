@@ -16,17 +16,3 @@
     <a href="https://kouzelnetvare.cz">🌐 Kouzelnetvare.cz</a>
   </p>
 </div>
-
----
-
-## ✨ O projektu
-
-Webová prezentace pro **Kouzelné Tváře** — malování na obličej pro dětské oslavy, školky a firemní family days v Praze a okolí. Stránka představuje služby, oblíbené motivy, ceník a příběh Martiny Škorubové, která za projektem stojí.
-
----
-
-## 📬 Kontakt
-
-✉️ [info@kouzelnetvare.cz](mailto:info@kouzelnetvare.cz)  
-📞 +420 777 559 022  
-📍 Praha 8 a okolí
