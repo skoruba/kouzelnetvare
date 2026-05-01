@@ -12,7 +12,16 @@ import spiderman from "../assets/themes/6-spiderman.png";
 import jednorozec from "../assets/themes/7-jednorozec.png";
 import minecraft from "../assets/themes/8-mineraft.png";
 
-const themeImages = [vesmir, fotbal, kocka, motyl, duha, spiderman, jednorozec, minecraft];
+const themeImages = [
+  vesmir,
+  fotbal,
+  kocka,
+  motyl,
+  duha,
+  spiderman,
+  jednorozec,
+  minecraft,
+];
 
 export function MotifsSection() {
   return (

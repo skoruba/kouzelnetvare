@@ -51,23 +51,25 @@ export const motifs: Motif[] = [
   ["Kočka", "Roztomilá kočička s ousky a knírajícím nosem."],
   ["Motýl", "Krásný motýl s křídly a třpytky jako třiduch."],
   ["Duha", "Pastelová duha plná barev přinášející radost a kouzlo."],
-  ["Spiderman", "Superhrdina Spider-Man s pověstným značením a silou."],  ["Jednorožec", "Kouzelný jednorožec s růžkem, květy a vlásky plnými magie."],
-  ["Minecraft", "Bloky, kostky a pixelová dobrodružství z populární hry."],];
+  ["Spiderman", "Superhrdina Spider-Man s pověstným značením a silou."],
+  ["Jednorožec", "Kouzelný jednorožec s růžkem, květy a vlásky plnými magie."],
+  ["Minecraft", "Bloky, kostky a pixelová dobrodružství z populární hry."],
+];
 
 export const packages: PackageItem[] = [
   {
     name: "Malý motiv",
-    price: "od 90 Kč",
+    price: "od 50 Kč",
     text: "Srdíčko, kytička, pavouček nebo malý obrázek na tvář.",
   },
   {
     name: "Celý obličej",
-    price: "130–180 Kč",
+    price: "od 100 Kč",
     text: "Motýl, tygr, princezna, jednorožec nebo superhrdina.",
   },
   {
     name: "Dětská oslava",
-    price: "od 2 400 Kč",
+    price: "od 1 000 Kč",
     text: "Ideální balíček na 2 hodiny pro cca 12–18 dětí.",
     badge: "Nejoblíbenější",
   },
