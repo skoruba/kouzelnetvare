@@ -70,7 +70,7 @@ export const packages: PackageItem[] = [
   {
     name: "Dětská oslava",
     price: "od 1 000 Kč",
-    text: "Ideální balíček na 2 hodiny pro cca 12–18 dětí.",
+    text: "Ideální balíček na 1 hodinu pro cca 5–7 dětí.",
     badge: "Nejoblíbenější",
   },
 ];
