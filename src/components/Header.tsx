@@ -1,5 +1,5 @@
 import { styles } from "../styles";
-import { BrushIcon } from "./BrushIcon";
+import logoSmall from "../assets/logo-small.png";
 import { Button } from "./Button";
 
 export function Header() {
@@ -7,7 +7,11 @@ export function Header() {
     <header style={styles.header}>
       <div style={styles.headerBrand}>
         <div style={styles.headerIcon}>
-          <BrushIcon size={26} />
+          <img
+            src={logoSmall}
+            alt="Kouzelné Tváře"
+            style={{ width: 28, height: 28 }}
+          />
         </div>
         <div>
           <div style={styles.headerTitle}>Kouzelné Tváře</div>

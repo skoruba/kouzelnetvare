@@ -97,8 +97,8 @@ export const styles: Record<string, CSSProperties> = {
     gap: 12,
   },
   headerIcon: {
-    width: 48,
-    height: 48,
+    width: 56,
+    height: 56,
     borderRadius: 18,
     background: "white",
     display: "flex",
