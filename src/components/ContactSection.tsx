@@ -36,7 +36,7 @@ export function ContactSection() {
             📞 +420 777 559 022
           </a>
 
-          <Button>Poslat poptávku</Button>
+          <Button href="mailto:skorubova@email.cz">Poslat poptávku</Button>
         </div>
       </div>
     </section>
