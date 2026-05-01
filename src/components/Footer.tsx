@@ -1,9 +1,13 @@
 import { styles } from "../styles";
 
 export function Footer() {
+  const currentYear = new Date().getFullYear();
+
   return (
     <footer style={styles.footer}>
-      <div>© 2026 Kouzelné Tváře · Malování na obličej Praha a okolí</div>
+      <div>
+        © {currentYear} Kouzelné Tváře · Malování na obličej Praha a okolí
+      </div>
 
       <div style={styles.footerLinks}>
         <a
