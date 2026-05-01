@@ -1,4 +1,4 @@
-import martinaImg from "../assets/martina.png";
+import martinaImg from "../assets/martina-small.png";
 import { styles } from "../styles";
 
 export function AboutSection() {
