@@ -46,16 +46,15 @@ export const services: Service[] = [
 ];
 
 export const motifs: Motif[] = [
-  ["Vesmír", "Kosmické planety, hvězdičky a zákoutí vesmíru na tváři."],
-  ["Fotbal", "Sportovní duch s barvami oblíbeného týmu na obličeji."],
-  ["Kočka", "Roztomilá kočička s ousky a knírajícím nosem."],
-  ["Motýl", "Krásný motýl s křídly a třpytky jako třiduch."],
-  ["Duha", "Pastelová duha plná barev přinášející radost a kouzlo."],
-  ["Spiderman", "Superhrdina Spider-Man s pověstným značením a silou."],
-  ["Jednorožec", "Kouzelný jednorožec s růžkem, květy a vlásky plnými magie."],
-  ["Minecraft", "Bloky, kostky a pixelová dobrodružství z populární hry."],
+  ["Vesmír", "Planety, hvězdičky a kouzelná cesta vesmírem přímo na tváři."],
+  ["Fotbal", "Sportovní motiv s míčem, barvami a energií oblíbeného týmu."],
+  ["Kočka", "Roztomilá kočička s oušky, čumáčkem a jemnými fousky."],
+  ["Motýl", "Barevný motýlek s křídly, třpytkami a něžným kouzlem."],
+  ["Duha", "Pastelová duha plná barev, obláčků a radostných třpytek."],
+  ["Spider-Man", "Superhrdinský motiv s pavučinou pro malé odvážné hrdiny."],
+  ["Jednorožec", "Kouzelný jednorožec s růžkem, kvítky a duhovými detaily."],
+  ["Minecraft", "Pixelové kostky a zelený creeper motiv pro malé hráče."],
 ];
-
 export const packages: PackageItem[] = [
   {
     name: "Malý motiv",
